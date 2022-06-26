@@ -127,7 +127,7 @@ function createProduct() {
     logic()
 }
 
-setTimeout(() => createProduct(), 1000);
+setTimeout(() => createProduct(), 5000);
 
 function logic() {
     let btnPlusOrMinus = [...document.querySelectorAll('.main__product-btn')],
